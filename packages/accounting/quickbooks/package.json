@@ -1,0 +1,14 @@
+{
+  "name": "@mcp-dev-usa/quickbooks",
+  "version": "1.0.0",
+  "description": "QuickBooks MCP server — invoices, customers, accounts, reports",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": { "mcp-dev-usa-quickbooks": "dist/index.js" },
+  "scripts": { "build": "tsc" },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0"
+  },
+  "devDependencies": { "typescript": "^5.5.0" },
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@mcp-dev-usa/twilio",
+  "version": "1.0.0",
+  "description": "Twilio MCP server — SMS, calls, lookups, messaging",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": { "mcp-dev-usa-twilio": "dist/index.js" },
+  "scripts": { "build": "tsc" },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "twilio": "^5.0.0"
+  },
+  "devDependencies": { "typescript": "^5.5.0" },
+  "license": "MIT"
+}

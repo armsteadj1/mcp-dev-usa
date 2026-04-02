@@ -1,0 +1,22 @@
+{
+  "name": "@mcp-dev-usa/sendgrid",
+  "version": "1.0.0",
+  "description": "SendGrid MCP server \u2014 email, templates, contacts, stats",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-sendgrid": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "@sendgrid/mail": "^8.0.0",
+    "@sendgrid/client": "^8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@mcp-dev-usa/xero",
+  "version": "1.0.0",
+  "description": "Xero MCP server \u2014 invoices, contacts, accounts, bank transactions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-xero": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "xero-node": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

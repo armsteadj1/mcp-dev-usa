@@ -1,0 +1,21 @@
+{
+  "name": "@mcp-dev-usa/hubspot",
+  "version": "1.0.0",
+  "description": "HubSpot CRM MCP server \u2014 contacts, deals, companies, pipelines",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-hubspot": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "@hubspot/api-client": "^12.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

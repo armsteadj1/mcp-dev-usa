@@ -1,0 +1,20 @@
+{
+  "name": "@mcp-dev-usa/shipstation",
+  "version": "1.0.0",
+  "description": "ShipStation MCP server \u2014 orders, shipments, carriers, warehouses",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-shipstation": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

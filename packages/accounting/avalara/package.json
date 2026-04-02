@@ -1,0 +1,20 @@
+{
+  "name": "@mcp-dev-usa/avalara",
+  "version": "1.0.0",
+  "description": "Avalara MCP server \u2014 tax calculation, address validation, exemptions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-avalara": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

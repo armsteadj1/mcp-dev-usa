@@ -1,0 +1,21 @@
+{
+  "name": "@mcp-dev-usa/plaid",
+  "version": "1.0.0",
+  "description": "Plaid MCP server \u2014 accounts, transactions, identity, balances",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-plaid": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "plaid": "^28.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@mcp-dev-usa/paypal",
+  "version": "1.0.0",
+  "description": "PayPal/Braintree MCP server \u2014 orders, payments, disputes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-paypal": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "@paypal/paypal-server-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

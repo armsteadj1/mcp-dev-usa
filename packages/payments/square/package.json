@@ -1,0 +1,21 @@
+{
+  "name": "@mcp-dev-usa/square",
+  "version": "1.0.0",
+  "description": "Square MCP server \u2014 payments, orders, customers, catalog",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-square": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "square": "^39.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

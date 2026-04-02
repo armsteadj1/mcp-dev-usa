@@ -1,0 +1,21 @@
+{
+  "name": "@mcp-dev-usa/airtable",
+  "version": "1.0.0",
+  "description": "Airtable MCP server \u2014 records, tables, views, webhooks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-airtable": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "airtable": "^0.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

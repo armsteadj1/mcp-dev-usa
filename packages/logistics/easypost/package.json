@@ -1,0 +1,21 @@
+{
+  "name": "@mcp-dev-usa/easypost",
+  "version": "1.0.0",
+  "description": "EasyPost MCP server \u2014 shipments, rates, labels, tracking",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-easypost": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "@easypost/api": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

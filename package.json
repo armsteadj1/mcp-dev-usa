@@ -1,0 +1,36 @@
+{
+  "name": "mcp-dev-usa",
+  "version": "1.0.0",
+  "description": "🇺🇸 MCP servers for the US business stack — payments, accounting, logistics, communication, banking, commerce, security, and public data",
+  "private": true,
+  "workspaces": [
+    "packages/shared",
+    "packages/payments/stripe",
+    "packages/payments/square",
+    "packages/payments/plaid",
+    "packages/payments/paypal",
+    "packages/security/basis-theory",
+    "packages/accounting/quickbooks",
+    "packages/accounting/xero",
+    "packages/accounting/avalara",
+    "packages/logistics/shippo",
+    "packages/logistics/easypost",
+    "packages/logistics/shipstation",
+    "packages/communication/twilio",
+    "packages/communication/sendgrid",
+    "packages/communication/postmark",
+    "packages/banking/mercury",
+    "packages/banking/increase",
+    "packages/banking/column",
+    "packages/commerce/shopify",
+    "packages/commerce/hubspot",
+    "packages/commerce/airtable",
+    "packages/identity/public-data"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "clean": "rm -rf packages/*/dist packages/*/*/dist"
+  },
+  "author": "James Armstead <armsteadj1@gmail.com>",
+  "license": "MIT"
+}

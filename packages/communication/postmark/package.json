@@ -1,0 +1,21 @@
+{
+  "name": "@mcp-dev-usa/postmark",
+  "version": "1.0.0",
+  "description": "Postmark MCP server \u2014 email, templates, servers, message streams",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-postmark": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "postmark": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

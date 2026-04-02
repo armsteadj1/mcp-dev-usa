@@ -1,0 +1,21 @@
+{
+  "name": "@mcp-dev-usa/basis-theory",
+  "version": "1.0.0",
+  "description": "Basis Theory MCP server \u2014 tokenization, proxy, 3DS, reactors",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-basis-theory": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "@basis-theory/basis-theory-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

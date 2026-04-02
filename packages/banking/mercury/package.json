@@ -1,0 +1,20 @@
+{
+  "name": "@mcp-dev-usa/mercury",
+  "version": "1.0.0",
+  "description": "Mercury MCP server \u2014 accounts, transactions, recipients",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-mercury": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}

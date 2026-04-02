@@ -1,0 +1,21 @@
+{
+  "name": "@mcp-dev-usa/increase",
+  "version": "1.0.0",
+  "description": "Increase MCP server \u2014 ACH, wires, checks, accounts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-dev-usa-increase": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@mcp-dev-usa/shared": "^1.0.0",
+    "increase": "^0.40.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}
